@@ -226,13 +226,13 @@ Sau khi cài đặt thành công, ta cần cấu hình một số thứ:
 
 ## 5. Triển khai Cấu Trúc Database (Schema)
 
-Xem mục: [text](02_Database_Design.md)
+Xem mục: [02_Database_Design](02_Database_Design.md)
 
 ---
 
 ## 6. Triển khai ETL & Nạp Dữ liệu
 
-Xem mục: [text](03_ETL_Flow.md)
+Xem mục: [03_ETL_Flow](03_ETL_Flow.md)
 
 ---
 
