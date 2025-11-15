@@ -14,7 +14,7 @@ Chính sách bảo mật nhằm đảm bảo:
 - Nguyên tắc phân quyền tối thiểu (Least Privilege): Người dùng chỉ được cấp đúng quyền phù hợp nhiệm vụ.
 - Tách biệt trách nhiệm (Separation of Duties): Không một tài khoản nào được toàn quyền từ ETL → DB → Admin.
 - Không sử dụng tài khoản SYS/SYSTEM cho workflow hàng ngày.
-- Ghi log truy cập đầy đủ: Truy vết các hành động INSERT/UPDATE/DELETE.
+- Ghi log truy cập đầy đủ: Truy vết các hành động INSERT/UPDATE.
 
 ---
 
@@ -31,7 +31,7 @@ Chính sách bảo mật nhằm đảm bảo:
 ## 4. Các Quyền Cấp Cho Mỗi Nhóm Quyền
 
 ### 4.1. Role Operator
-- INSERT/UPDATE/DELETE: Orders, Order_Details, Invoices, Order_Invoices, Payments, Customers, Customer_Addresses, Branch_Managers, Sale_Staffs.
+- INSERT/UPDATE: Orders, Order_Details, Invoices, Order_Invoices, Payments, Customers, Customer_Addresses, Branch_Managers, Sale_Staffs.
 - SELECT: Product_Categories, Product_Units, Product_Status, Employee_Types, Employee_Status, Customer_Types, Customer_Status, Branch_Types, Branch_Status, Sale_Channels.
 - Với các User: operator1, operator2, operator3, ...
 
