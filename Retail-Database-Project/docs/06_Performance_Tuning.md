@@ -333,7 +333,7 @@ After Optimization:
 - Tối ưu hóa Tổng hợp: Operation 1 sử dụng SORT GROUP BY NOSORT, cho thấy truy vấn tổng hợp dữ liệu mà không cần phải sắp xếp lại (hoặc việc sắp xếp đã được thực hiện hiệu quả trong quá trình truy cập Index), giúp tiết kiệm tài nguyên.
 
 ### 4.6. Tổng hợp so sánh một số truy vấn
-[Test_Excel](../performance/query_before_after.xlsx)
+[Mở file Excel!!!](../performance/query_before_after.xlsx)
 
 ---
 

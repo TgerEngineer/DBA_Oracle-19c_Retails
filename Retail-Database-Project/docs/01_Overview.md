@@ -35,12 +35,6 @@ Cấu trúc gồm 3 lớp chính:
 2. **Operational Database (Retail DB)** – nơi lưu trữ dữ liệu chuẩn hóa (3NF), phục vụ nghiệp vụ bán hàng, khách hàng, nhân viên, đơn hàng, hóa đơn.  
 3. **Analytical Layer (tùy chọn trong giai đoạn mở rộng)** – có thể trích xuất dữ liệu từ Retail DB sang Data Warehouse/BI sau này.
 
-```mermaid
-flowchart LR
-    A[Source Data (CSV, API, Faker)] --> B[Operational Retail Database (Oracle)]
-    B --> C[Future: Data Warehouse / BI Tools]
-```
-
 ---
 
 ## 4. Stack công nghệ
@@ -70,12 +64,12 @@ flowchart LR
 
 | STT | File | Mô tả |
 |-----|------|-------|
-| 1 | 02_Database_Design.md | Thiết kế cơ sở dữ liệu & ERD |
-| 2 | 03_ETL_Flow.md | Mô tả pipeline ETL |
-| 3 | 04_Security_Policy.md | Chính sách bảo mật & phân quyền |
-| 4 | 05_Backup_Recovery_Guide | Hướng dẫn backup & restore |
-| 5 | 06_Performance_Tuning.md | Ghi chú tối ưu hiệu năng |
-| 6 | 07_Deployment_Guide.md | Hướng dẫn triển khai hệ thống |
+| 1 | [02_Database_Design](02_Database_Design.md) | Thiết kế cơ sở dữ liệu & ERD |
+| 2 | [03_ETL_Flow](03_ETL_Flow.md) | Mô tả pipeline ETL |
+| 3 | [04_Security_Policy](04_Security_Policy.md) | Chính sách bảo mật & phân quyền |
+| 4 | [05_Backup_Recovery_Guide](05_Backup_Recovery_Guide.md) | Hướng dẫn backup & restore |
+| 5 | [06_Performance_Tuning](06_Performance_Tuning.md) | Ghi chú tối ưu hiệu năng |
+| 6 | [07_Deployment_Guide](07_Deployment_Guide.md) | Hướng dẫn triển khai hệ thống |
 
 ---
 
