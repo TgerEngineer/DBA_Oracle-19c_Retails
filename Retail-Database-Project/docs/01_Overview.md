@@ -36,9 +36,9 @@ Cấu trúc gồm 3 lớp chính:
 3. **Analytical Layer (tùy chọn trong giai đoạn mở rộng)** – có thể trích xuất dữ liệu từ Retail DB sang Data Warehouse/BI sau này.
 
 ```mermaid
-graph LR
-  A[Source Data (CSV, API, Faker)] --> B[Operational Retail Database (Oracle)];
-  B --> C[Future: Data Warehouse / BI Tools];
+flowchart LR
+    A[Source Data (CSV, API, Faker)] --> B[Operational Retail Database (Oracle)]
+    B --> C[Future: Data Warehouse / BI Tools]
 ```
 
 ---
